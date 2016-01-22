@@ -1,3 +1,10 @@
+# NSBezierPath-Length
+Ported to Mac OS X by Phillip Schuster (@appfruits). 
+
+* Added a caching class for the extracted subpaths. Working with the same paths over and over again is very slow as extracting the subpaths takes a lot of time. 
+
+* Added a new method „-fractionsOfInterest“. This method returns an array of NSNumbers between 0 and 1 and describes interesting fraction points where something happens, like a new point or curve. 
+
 # UIBezierPath-Length
 A category on UIBezierPath that calculates the length and a point at a given length of the path.
 
